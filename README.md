@@ -1,0 +1,1 @@
+# kopr_projekt_rabbitmq

@@ -2,14 +2,14 @@
 
 projekt vznikol ako výstup predmetu KOPR 
 
-spracoval som variantu IV. pomocou RanbbitMQ broker-a
+spracoval som variantu IV. pomocou RabbitMQ broker-a
 
 # **Zadanie – distribuovaný program**
 Firma Paytel s.r.o. vyrába systém na peer-to-peer mobilné platby, teda rýchly mechanizmus prevodu peňazí medzi mobilnými telefónmi.
 
 Každý účastník má svoj mobilný telefón s kreditom, ktorý môže použiť na platbu inému účastníkovi.
 
-###Systém má podporovať nasledovné služby:
+### Systém má podporovať nasledovné služby:
 
 **1. platba inému účastníkovi.** Platca odošle na iné telefónne číslo sumu, účel platby. Eviduje sa odosielateľ a dátum a čas platby.
 
@@ -24,10 +24,10 @@ Každý účastník má svoj mobilný telefón s kreditom, ktorý môže použi�
 
 **5.** identifikovať **podozrivé platby** v reálnom čase. Pre jednoduchosť je platba podozrivá, ak je nad 5000 eur. Takéto platby okamžite zaznamenávajte vhodným spôsobom, aby sa jednoducho dalo v budúcnosti zrealizovať notifikovanie pomocou SMS, mailu a podobne.
 
-###Technické požiadavky
+### Technické požiadavky
 Implementáciu databázy — ak to považujete za potrebné — zvoľte podľa vlastného uváženia. Nezabúdajte na to, že ku databáze budú pristupovať viacerí klienti naraz.  I v distribuovanom softvéri platia pravidlá pre konkurentné programovanie!
 
-##Varianty zadania
+## Varianty zadania
 Vyberte si jeden z variantov zadania a implementujte ho úplne. Zadanie, ktoré nespĺňa všetky požiadavky vo vybranej možnosti, bude zamietnuté. Pri zadaní sa hodnotí kvalita a spôsob implementácie.
 
 **I. SOAP webservice (od kódu k WSDL)**

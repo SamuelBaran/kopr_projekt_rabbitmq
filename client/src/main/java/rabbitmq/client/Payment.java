@@ -55,6 +55,8 @@ public class Payment {
         return sender;
     }
 
+    public String getPurpose(){ return purpose; }
+
     @Override
     public String toString() {
         return "Payment: " + sender + " -> " + sendTo + " ("  + amount + ", " + when + (purpose == null ?")" :(", purpose: " + purpose + ")"));
